@@ -7,7 +7,7 @@ export const searchTextSelector = (state) => state.filters.search
 
 export const todosRemainingSelector = createSelector(todoListSelector, filterStatusSelector, searchTextSelector, filterPrioritySelector,
     (todoList, status, searchText, priorities=[]) => {
-    console.log(priorities )
+    //console.log(priorities )
         return todoList.filter((todo) => {
 
            if (status === 'All')
