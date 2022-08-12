@@ -19,9 +19,10 @@ export  const statusFilterChange=(status)=>{
         payload:status
     }
 }
-export  const prioriryFilterChange=(prioriry)=>{
+export  const prioritiesFilterChange=(priorities)=>{
+    //console.log(priorities)
     return {
-        type:'filter/prioriryFilterChange',
-        payload:prioriry
+        type:'filter/prioritiesFilterChange',
+        payload:priorities
     }
 }
